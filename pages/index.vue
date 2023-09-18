@@ -1,34 +1,17 @@
 <template>
-  <div> 
-    <Nav />
-    <Nav2 />
-    <Nav3 />
+  <div>
     <div class="container">
-      <Hero />
-      
-      <LargeCardDisplay
-        v-for="cardInfo in largeCardInfo"
-        :key="cardInfo.id"
-        :cardsSection="cardInfo"
-      />
-      <SmallCardDisplay 
-        v-for="cardInfo in smallCardSections"
-        :key="cardInfo.id"
-        :cardsSection="cardInfo"
-      /> 
+      <Carrusel />
     </div>
   </div>
 </template>
 
 <script>
-import { largeCardSections, smallCardSections } from "@/assets/data.js"
+import { largeCardSections, smallCardSections } from "@/assets/data.js";
+import Default from "../layouts/default.vue";
 export default {
-  data(){
-    return {
-      largeCardInfo: largeCardSections,
-      smallCardSections: smallCardSections
-    }
-  }
+   
+    components: { Default }
 }
 </script>
 
