@@ -1,14 +1,15 @@
 <template>
+  <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark padding">
   
       <b-navbar-nav class="">
-        <a href="https://www.gamadero.tecnm.mx/" class="nav-link" >🏠 <span class="sr-only">(current)</span></a>
+        <NuxtLink to="" class="nav-link">🏠 <span class="sr-only">(current)</span></NuxtLink>
         <b-nav-item-dropdown text="🏢 Nuestro campus" right> 
           <b-dropdown-item><NuxtLink to="/NuestroCampus/Historia">Historia</NuxtLink></b-dropdown-item>
           <b-dropdown-item><NuxtLink to="/NuestroCampus/MisionVisionValores">MisionVisionValores</NuxtLink></b-dropdown-item>
           <b-dropdown-item><NuxtLink to="/NuestroCampus/EstructuraOrganizacional">Estructura Organizacional</NuxtLink></b-dropdown-item>
-          <b-dropdown-item><NuxtLink to="/NuestroCampus/Directorio">Directorio</NuxtLink></b-dropdown-item>
-          <b-dropdown-item><NuxtLink to="/NuestroCampus/AvisoPrivacidad">Aviso de Privacidad TECNM</NuxtLink></b-dropdown-item>
+          <b-dropdown-item><NuxtLink to="@/cliente/assets/images/NuestroCampus/Directorio 2023.webp">Directorio</NuxtLink></b-dropdown-item>
+          <b-dropdown-item><NuxtLink to="/NuestroCampus/AvisoPrivacidad" target="blank">Aviso de Privacidad TECNM</NuxtLink></b-dropdown-item>
           <b-dropdown-item><NuxtLink to="/NuestroCampus/MarcoNormativo">Marco Normativo</NuxtLink></b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="🏢 Departamentos"  right>
@@ -46,7 +47,7 @@
           <b-dropdown-item href="https://docs.google.com/forms/d/e/1FAIpQLSc_Xpq5XvSq9YI1arceYkwPgN6nE21SSf_dyaUuBJMQGOXd9Q/viewform">Bolsa de Trabajo</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="👨‍🏫 Docentes"  right>
-          <b-dropdown-item href="">Convocatoria</b-dropdown-item>
+          <b-dropdown-item href="/Docentes/Convocatorias">Convocatoria</b-dropdown-item>
           <b-dropdown-item href="http://187.188.185.18:8010/cgi-bin/sie.pl?Opc=PINDEXDOCENTE&psie=intertec&dummy=0">SIE</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="👤 Vinculación" right>
@@ -57,19 +58,22 @@
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="👤 C.L.E"  right>
           <b-dropdown-item a href="#">Niveles</b-dropdown-item>
-          <b-dropdown-item href="#">Convocatorias</b-dropdown-item>
+          <b-dropdown-item href="/CLE/Convocatorias">Convocatorias</b-dropdown-item>
           <b-dropdown-item href="#">Acceso</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="📚 Biblioteca"  right>
-          <b-dropdown-item href="#">e-Libro Biblioteca Digital</b-dropdown-item>
+          <b-dropdown-item href="https://elibro.net/es/lc/gamadero/login_usuario/?next=/es/lc/gamadero/inicio/" target="blank">e-Libro Biblioteca Digital</b-dropdown-item>
           <b-dropdown-item href="#">Video e-Libro</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="💳 Pago de Servicios"  right>
           <b-dropdown-item href="#">Pago en Linea</b-dropdown-item>
           <b-dropdown-item href="#">Pago Referenciado</b-dropdown-item>
+          
+
         </b-nav-item-dropdown>
       </b-navbar-nav>
     </nav>
+  </div>
 </template>
 
 <script>
@@ -82,6 +86,9 @@
 <style scoped>
  .navbar.navbar-dark.bg-dark{
     background-color:#013b6d!important;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
   }
 
 </style>

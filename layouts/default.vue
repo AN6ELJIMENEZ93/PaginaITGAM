@@ -4,7 +4,7 @@
         <Nav2 />
         <Nav3 />
         <Nuxt />
-        <Cuerpo /> 
+        <FooterSitios />
     <Footer />
     </div>
 </template>

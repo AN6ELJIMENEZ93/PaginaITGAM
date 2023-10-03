@@ -1,8 +1,9 @@
 <template>
   <div>
-    <div class="container">
+    <div class="container"> <br><br><br>
       <Carrusel />
     </div>
+    <Cuerpo />
   </div>
 </template>
 

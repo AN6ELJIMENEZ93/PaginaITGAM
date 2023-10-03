@@ -31,6 +31,10 @@
 <style scoped>
  .navbar.navbar-dark.bg-dark{
     background-color: rgb(11, 35, 30)!important;
+    width: 100%;
+    position: fixed;
+    top: 20px;
+    z-index: 100;
  }
     .nav-left {
         margin-left: auto;

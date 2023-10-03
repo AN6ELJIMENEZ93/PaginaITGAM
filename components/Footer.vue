@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark padding">
-  
+
     <b-navbar-nav class="">
         <b-container class="bv-example-row">
             <div class="container text-center">
@@ -15,8 +15,8 @@
                 <div class="p-3">Calle 608 No. 300 y Av. 412, Col. San Juan de Aragón, Alcaldía. Gustavo A. Madero, C.P. 07470, México, CDMX</div>
                 </div>
                 <div class="col">
-                <div class="p-3">Portal de Obligaciones de <br> Transparencia <br> INAI <br> Buzón de Suguerencias</div>
-                </div>
+                <div class="p-3"> <a href="http://portaltransparencia.gob.mx/buscador/search/search.do?method=begin" target="blank">Portal de Obligaciones de Transparencia </a><br><a href="http://inicio.ifai.org.mx/SitePages/ifai.aspx" target="blank"> INAI </a><br> <a href="" target="blank">Buzón de Suguerencias</a></div>
+                </div> 
                 <div class="col">
                 <div class="p-3">Contacto:</div>
                 </div>
