@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark padding">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark padding"> <br>
 
     <b-navbar-nav class="">
         <b-container class="bv-example-row">

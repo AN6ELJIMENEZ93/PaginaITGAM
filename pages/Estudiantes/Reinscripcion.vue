@@ -14,12 +14,12 @@
     <tr>
       <th scope="col">1</th>
       <th scope="col">PROCESO DE REINSCRIPCIÓN</th>
-      <a href="assets\MarcoNormativo\decreto_tecnologico_nacional_mexico.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Acceder</a>
+      <a href="../../documents/estudiantes/reinscripcion/proceso_de_reinscripcion.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="blank">Acceder</a>
     </tr>
     <tr>
       <th scope="col">2</th>
       <th scope="col">HORARIO DE REINSCRIPCIÓN 2022</th>
-      <a href="assets\MarcoNormativo\decreto_tecnologico_nacional_mexico.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Acceder</a>
+      <a href="../../documents/estudiantes/reinscripcion/fechas_reinscripcion.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="blank">Acceder</a>
     </tr>
   </tbody>
 </table>

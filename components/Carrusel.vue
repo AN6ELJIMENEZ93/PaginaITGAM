@@ -16,7 +16,7 @@
       <!-- Text slides with image -->
       <b-carousel-slide
         img-src="@/assets/images/Carrusel/SeminarioTitulacion.jpg"
-        a href="@/assets/documents/Carrusel/seminario1.pdf"
+        a href="documents/calendario_escolar_agosto_diciembre_2023.pdf"
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->

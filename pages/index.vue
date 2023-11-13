@@ -1,9 +1,10 @@
 <template>
   <div>
-    <div class="container"> <br><br><br>
+    <div> <br><br><br>
       <Carrusel />
     </div>
     <Cuerpo />
+    <FooterComunicacion />
   </div>
 </template>
 
@@ -15,7 +16,3 @@ export default {
     components: { Default }
 }
 </script>
-
-<style>
-
-</style>

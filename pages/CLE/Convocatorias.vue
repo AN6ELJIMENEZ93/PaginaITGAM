@@ -14,12 +14,12 @@
     <tr>
       <th scope="col">1</th>
       <th scope="col">Convocatoria curso sabatino de Inglés</th>
-      <a href="assets\MarcoNormativo\decreto_tecnologico_nacional_mexico.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Descargar</a>
+      <a href="../../documents/cle/curso_sabatino_enero_abril_2023.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="blank">Consultar</a>
     </tr>
     <tr>
       <th scope="col">2</th>
       <th scope="col"> Convocatoria curso semanal de Inglés</th>
-      <a href="assets\MarcoNormativo\decreto_tecnologico_nacional_mexico.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Descargar</a>
+      <a href="../../documents/cle/conv_semanal_enero_marzo.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="blank">Consultar</a>
     </tr>
   </tbody>
 </table>

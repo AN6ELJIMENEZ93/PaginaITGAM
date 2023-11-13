@@ -14,24 +14,24 @@
     <tr>
       <th scope="col">1</th>
       <th scope="col">Convocatoria Docente A13</th>
-      <a href="assets\MarcoNormativo\decreto_tecnologico_nacional_mexico.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Descargar</a>
+      <a href="../../documents/docentes/convocatorias/cdocente_a_13_2023.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="blank">Consultar</a>
     </tr>
     <tr>
       <th scope="col">2</th>
       <th scope="col">Convocatoria Docente A15</th>
-      <a href="assets\MarcoNormativo\decreto_tecnologico_nacional_mexico.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Descargar</a>
+      <a href="../../documents/docentes/convocatorias/cdocente_a_15_2023.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="blank" >Consultar</a>
 
     </tr>
     <tr>
       <th scope="col">3</th>
       <th scope="col"> Convocatoria Docente A17</th>
-      <a href="assets\MarcoNormativo\1parte.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Descargar</a>
+      <a href="../../documents/docentes/convocatorias/cdocente_a_17_2023.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="blank">Consultar</a>
     </tr>
   </tbody>
     <tr>
       <th scope="col">4</th>
       <th scope="col">Convocatoria Docente A18</th>
-      <a href="assets\MarcoNormativo\2parte.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Descargar</a>
+      <a href="../../documents/docentes/convocatorias/a18.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="blank">Consultar</a>
     </tr>
 </table>
         </div>

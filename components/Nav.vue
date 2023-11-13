@@ -33,7 +33,7 @@
     background-color: rgb(11, 35, 30)!important;
     width: 100%;
     position: fixed;
-    top: 20px;
+    top: 0px;
     z-index: 100;
  }
     .nav-left {

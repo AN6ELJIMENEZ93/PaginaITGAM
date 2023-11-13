@@ -1,6 +1,5 @@
 <template>
-
-    <div class="container-fluid"> <br>
+  <div class="container-fluid"> <br>
            <section style="background-color: #efefef; width:80%; margin:auto;  padding-bottom:40px;"   id="">
              <center><h3 style="margin-bottom: 15px;">
                Sitios de Interés
@@ -35,4 +34,6 @@
     </div>
     </section>
        </div>
+
+
     </template>
